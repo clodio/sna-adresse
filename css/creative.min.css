@@ -19,5 +19,18 @@
 .grey-color{
   background-color: #73695f;
 }
+.baseline {
+  background-color: rgba(0,0,0,.8);
+  font-size: 21px;
+  max-width: 68%;
+}
+.push-services .tile .tile__caption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.4);
+    padding: 15px .7em;
+    color: #FFF;
+}
 
 
