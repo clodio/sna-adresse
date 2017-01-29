@@ -54,8 +54,8 @@
  color: #303030;
 }
 #address {
- border: 1px solid #000090;
- background-color: #f0f0ff;
+  border: 1px solid #1e1e1f;
+  background-color: #f05f40;
  width: 480px;
  padding-right: 2px;
 }
@@ -74,6 +74,13 @@
 #locationField {
   height: 26px;
   margin-bottom: 2px;
+}
+.details {
+    background-color: #eee;
+    color: #333;
+    padding: 20px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
 }
 
 
