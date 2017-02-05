@@ -12,6 +12,9 @@
 
     <title>Service National de l'Adresse : tous les services d'adresses à portée de clic</title>
 
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
@@ -51,31 +54,29 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a class="page-scroll" href="#about">Qui sommes nous?</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#services">Services</a>
-                    </li>
-
-
-                    <li class="dropdown btn-primary">
-                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Démonstrations et tests <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#adressesdistribuables">Adresses distribuables</a></li>
-                        <li><a href="#adressesplus">Adresses+</a></li>
-                        <li><a href="#cartoplus">Carto+</a></li>
-                        <li><a href="#serca">Serca</a></li>
-                      </ul>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#api">API</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#contact">Contactez-nous</a>
-                    </li>
-                </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a class="page-scroll" href="/#about">Qui sommes nous?</a>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#services">Services</a>
+                </li>
+                <li class="dropdown btn-primary">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Démonstrations et code <span class="caret"></span></a>
+                  <ul class="dropdown-menu fa-ul">
+                    <li><a href="saisie-adresse-simple-rapide"><i class="fa fa-magic  fa-fw" aria-hidden="true"></i> Serca : Saisie d'adresses simple et rapide </a></li>
+                    <li class="disabled"><a href="#adressesdistribuables"><i class="fa-fw fa fa-university" aria-hidden="true"></i> Communes nouvelles</a></li>
+                    <li class="disabled"><a href="#adressesplus"><i class="fa-fw fa fa-file-text-o" aria-hidden="true"></i> Fichiers HexaX</a></li>
+                    <li class="disabled"><a href="#adressesplus"><i class="fa-fw fa fa-plus-circle" aria-hidden="true"></i> BAN+ : Base d'adresse Nationale augmentée</a></li>
+                    <li class="disabled"><a href="#adressesplus"><i class="fa-fw fa fa-code" aria-hidden="true"></i> API Adresse+</a></li>
+                    <li class="disabled"><a href="#cartoplus"><i class="fa-fw fa fa-map-marker" aria-hidden="true"></i> Carto+</a></li>
+                    <li class="disabled"><a href="#cartoplus"><i class="fa-fw fa fa-database" aria-hidden="true"></i> Data+</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a class="page-scroll" href="/#contact">Contactez-nous</a>
+                </li>
+              </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -162,7 +163,7 @@
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gift text-primary sr-icons"></i>
-                        <h3>Adresses distribuables</h3>
+                        <h3>Serca</h3>
                         <p class="text-muted">Vérifiez si <strong>vos adresses sont distribuables par les facteurs</strong>, diminuez vos coûts de traitements de Plis Non Distribués</p>
                     </div>
                 </div>
@@ -174,28 +175,28 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
-                    <div class="service-box">
+                    <div class="service-box hovereffect">
                       <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                         <h3>Serca</h3>
                         <p class="text-muted">Offre Service de saisie rapide et fiable d'adresses</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="service-box">
+                    <div class="service-box hovereffect">
                         <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
                         <h3>Adresses+</h3>
                         <p class="text-muted">Fiabilisez et complétez vos adresses en quelques clics (RNVP, géolocalisation x/y/z, nouvelles adresses de déménagés, stopPub, Insee, Ign,...)</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="service-box">
+                    <div class="service-box hovereffect">
                         <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                         <h3>Carto+</h3>
                         <p class="text-muted">Solutions cartographiques en partenariat avec l'IGN</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <div class="service-box">
+                    <div class="service-box hovereffect">
                         <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                         <h3>Adresses distribuables</h3>
                         <p class="text-muted">Vérifiez si vos adresses sont distribuables par les facteurs, diminuez vos coûts de traitements de Plis Non Distribués</p>
@@ -241,8 +242,8 @@
         <a name="adressesplus"></a>
         <div class="container">
             <div class="row top-buffer">
-                <div class="col-lg-6 col-md-6 text-center">
-                  <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
+                <div class="col-lg-6 col-md-6 text-center ">
+                  <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box hovereffect">
                       <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
                       <div class="portfolio-box-caption">
                           <div class="portfolio-box-caption-content">
@@ -278,7 +279,7 @@
                   </div>
                 </div>
                 <div class="col-lg-6 col-md-6 text-center">
-                  <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
+                  <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box hovereffect">
                       <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
                       <div class="portfolio-box-caption">
                           <div class="portfolio-box-caption-content">
@@ -501,8 +502,11 @@
     <!-- Theme JavaScript -->
     <script src="js/creative.min.js"></script>
     <script>
-
-
+    $(function() {
+      $('.dropdown').hover(function(){
+        $('.dropdown-toggle', this).trigger('click');
+      });
+    });
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJkHNjudRQrTt3H8l_zZh02xeGLE7OT1M&signed_in=true&libraries=places&components=country:fr&callback=initAutocomplete"  async defer></script>
 
