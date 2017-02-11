@@ -22,7 +22,7 @@
 .baseline {
   background-color: rgba(0,0,0,.8);
   font-size: 21px;
-  max-width: 68%;
+  max-width: 100%;
 }
 .push-services .tile .tile__caption {
     position: absolute;
@@ -118,4 +118,38 @@ transform:scale(1.2);
 }
 .section-small {
     padding: 50px 0;
+}
+
+@media (max-width: 768px) {
+#bs-example-navbar-collapse-1 {
+  background-color: #222;
+}
+}
+/*@media (min-width: 768px) {
+  #bs-example-navbar-collapse-1 {
+    background-color: #f05f40;
+  }
+  /*.baseline {
+    max-width: 68%;
+  }*/
+}*/
+
+
+
+@media (max-width: 767px) {
+  ul .submenu .dropdown-menu {
+    position: initial;
+    top: initial;
+    left: initial;
+    float: none;
+  }
+}
+
+
+.pac-logo:after{
+  background-image:url(../img/powered-by-laposte-on-white3.png)
+}
+
+.hdpi.pac-logo:after{
+  background-image:url(../img/powered-by-laposte-on-white3.png)
 }

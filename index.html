@@ -61,9 +61,10 @@
                 <li>
                     <a class="page-scroll" href="index.html#services">Services</a>
                 </li>
-                <li class="dropdown btn-primary">
+                <li class="dropdown btn-primary hidden-xs">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Démonstrations et code <span class="caret"></span></a>
-                  <ul class="dropdown-menu fa-ul">
+                  <ul class="submenu dropdown-menu fa-ul">
+                  <!--<ul id="submenu" class="dropdown-menu fa-ul visible-xs-inline-block">-->
                     <li><a href="saisie-adresse-simple-rapide"><i class="fa fa-magic  fa-fw" aria-hidden="true"></i> Serca : Saisie d'adresses simple et rapide </a></li>
                     <li class="disabled"><a href="#adressesdistribuables"><i class="fa-fw fa fa-university" aria-hidden="true"></i> Communes nouvelles</a></li>
                     <li class="disabled"><a href="#adressesplus"><i class="fa-fw fa fa-file-text-o" aria-hidden="true"></i> Fichiers HexaX</a></li>
@@ -91,7 +92,7 @@
             <div class="header-content-inner">
                 <h1 id="homeHeading">Service National de l'Adresse</h1>
                 <hr>
-                <p class="baseline" style="max-width: 68%;">Corrigez, fiabilisez et enrichissez vos adresses et bases de données clients...</p>
+                <p class="baseline">Corrigez, fiabilisez et enrichissez vos adresses et bases de données clients...</p>
                 <a href="index.html#services" class="btn btn-primary btn-xl page-scroll yellow-color">Découvrez nos services</a>
             </div>
         </div>
@@ -303,49 +304,12 @@
         <div class="container">
             <div class="row top-buffer">
                 <div class="col-lg-6 col-md-6 text-center">
-
-                    <!-- google autocomplete -->
-                    <div id="locationField">
-                      <input id="autocomplete" placeholder="Saisissez votre adresse"
-                             onFocus="geolocate()" type="text"></input>
-                    </div>
-
-                    <table id="address">
-                      <tr class="text-right">
-                        <td class="label text-right">Voie</td>
-                        <td class="slimField"><input class="field" id="street_number"
-                              disabled="true"></input></td>
-                        <td class="wideField" colspan="2"><input class="field" id="route"
-                              disabled="true"></input></td>
-                      </tr>
-                      <tr class="text-right">
-                        <td class="label text-right">Localité</td>
-                        <td class="wideField" colspan="3"><input class="field" id="locality"
-                              disabled="true"></input></td>
-                      </tr>
-                      <tr class="text-right">
-                        <td class="label text-right" style="display:none">Etat</td>
-                        <td class="slimField"  style="display:none"><input class="field"
-                              id="administrative_area_level_1" disabled="true"></input></td>
-                        <td class="label text-right">Code postal</td>
-                        <td class="wideField"><input class="field" id="postal_code"
-                              disabled="true"></input></td>
-                      </tr>
-                      <tr class="text-right">
-                        <td class="label text-right">Pays</td>
-                        <td class="wideField" colspan="3"><input class="field"
-                              id="country" disabled="true"></input></td>
-                      </tr>
-                    </table>
-                    <!-- END google autocomplete -->
-
-
-
+                    <video src="img/demo_serca.webm" alt="" class="img-responsive" autoplay="true" loop=""></video>
                 </div>
                 <div class="col-lg-6 col-md-6 text-center">
                   <div class="service-box">
                     <h3>Serca</h3>
-                    <p class="text-muted">Services de saisie rapide et fiable d'adresses pour PC, tablettes, smartphones<br/><br/><a href="#serca" class="btn btn-primary btn-xl page-scroll"><i class="fa fa-arrow-left" aria-hidden="true"></i> Tester Gratuitement</a></p>
+                    <p class="text-muted">Services de saisie rapide et fiable d'adresses pour PC, tablettes, smartphones<br/><br/><a href="saisie-adresse-simple-rapide#demo" class="btn btn-primary btn-xl page-scroll">Tester Gratuitement</a></p>
                     <p></p>
                   </div>
                 </div>
@@ -448,22 +412,22 @@
             <div class="call-to-action">
                 <h2>Venez rejoindre nos clients satisfaits !</h2>
                 <div class="row">
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-sm-2 col-xs-4">
                         <img src="img/portfolio/thumbnails/total.png" class="img-responsive" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-sm-2 col-xs-4">
                         <img src="img/portfolio/thumbnails/Logo_SNCF.png" class="img-responsive" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-sm-2 col-xs-4">
                         <img src="img/portfolio/thumbnails/spring.png" class="img-responsive" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-sm-2 col-xs-4">
                         <img src="img/portfolio/thumbnails/poleemploi.png" class="img-responsive" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-sm-2 col-xs-4">
                         <img src="img/portfolio/thumbnails/chronopost.png" class="img-responsive" alt="">
                     </div>
-                    <div class="col-lg-2 col-md-2">
+                    <div class="col-sm-2 col-xs-4">
                         <img src="img/portfolio/thumbnails/proxi.png" class="img-responsive" alt="">
                     </div>
                 </div>
