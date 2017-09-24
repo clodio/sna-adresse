@@ -6,7 +6,6 @@ script:
 before_script:
   - npm start &
   - sleep 5
-
 deploy:
   provider: pages
   skip_cleanup: true
