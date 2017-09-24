@@ -6,3 +6,9 @@ script:
 before_script:
   - npm start &
   - sleep 5
+notifications:
+  email:
+    recipients:
+      - claude.seguret@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
