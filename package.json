@@ -24,8 +24,8 @@
 		"eslint": "*"
 	},
 	"scripts": {
-		"preinstall": "npm i -g http-server casperjs phantomjs",
-		"lint": "./node_modules/.bin/eslint **/*.js",
+		"preinstall": "npm i -g http-server casperjs phantomjs eslint",
+		"eslint": "eslint 'index.js' 'tests/*.js'",
 		"start": "http-server",
 		"test": "casperjs test tests/"
 	},
