@@ -2,7 +2,9 @@ language: node_js
 node_js:
   - node
 script:
+  - npm run preinstall
   - npm run eslint
+  - npm run test
 before_script:
   - npm start &
   - sleep 5
