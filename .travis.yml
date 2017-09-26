@@ -1,0 +1,21 @@
+language: node_js
+node_js:
+  - node
+script:
+  - npm run test
+  - npm run eslint
+before_script:
+  - npm start &
+  - sleep 5
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN # Set in travis-ci.org dashboard
+  on:
+    branch: master
+notifications:
+  email:
+    recipients:
+      - claude.seguret@gmail.com
+    on_success: always # default: change
+    on_failure: always # default: always
