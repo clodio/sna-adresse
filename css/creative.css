@@ -293,7 +293,7 @@ json-response-text {
 a.ui-button:active,
 .ui-button:active,
 .ui-state-active.ui-button:hover {
-   background: rgba(0, 0, 0, .06)!important
+   background: rgba(0, 0, 0, .06) !important
 }
 
 .address-autocomplete-result-list {
@@ -611,4 +611,71 @@ img::selection {
 img::-moz-selection {
    color: white;
    background: transparent;
+}
+
+.btn-primary {
+   color: #000;
+   border-color: #f4b700;
+   background-color: #ffc928;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+   color: #000;
+   border-color: #febe00;
+   background-color: #eaaf00;
+}
+
+.btn-primary:hover {
+   color: #000;
+   border-color: #eaaf00;
+   background-color: #febe00;
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.btn-primary.dropdown-toggle {
+   color: #000;
+   border-color: #f4b700;
+   background-color: #eaaf00;
+}
+
+.btn-primary.active.focus,
+.btn-primary.active:focus,
+.btn-primary.active:hover,
+.btn-primary:active.focus,
+.btn-primary:active:focus,
+.btn-primary:active:hover,
+.open>.btn-primary.dropdown-toggle.focus,
+.open>.btn-primary.dropdown-toggle:focus,
+.open>.btn-primary.dropdown-toggle:hover {
+   color: #000;
+   border-color: #f4b700;
+   background-color: #ffc928;
+}
+
+.btn-primary.active,
+.btn-primary:active,
+.open>.btn-primary.dropdown-toggle {
+   background-image: none;
+}
+
+.btn-primary.disabled.focus,
+.btn-primary.disabled:focus,
+.btn-primary.disabled:hover,
+.btn-primary[disabled].focus,
+.btn-primary[disabled]:focus,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary.focus,
+fieldset[disabled] .btn-primary:focus,
+fieldset[disabled] .btn-primary:hover {
+   border-color: #eaaf00;
+   background-color: #febe00;
+}
+
+
+
+.btn-primary .badge {
+   color: #ffc928;
+   background-color: white;
 }
