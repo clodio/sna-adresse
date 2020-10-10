@@ -764,7 +764,7 @@
                var labelToDisplay = "";
                if (item.addressType == "street") {
                   labelToDisplay = item.address_row4 + ", " + item.address_row5 + ", " + item.postalCode + " " + item.locality;
-               } else if (item.addressType == "houseNumber") {
+               } else if (item.addressType == "housenumber") {
                   labelToDisplay = item.address_row4 + ", " + item.address_row5 + ", " + item.postalCode + " " + item.locality;
                } else if (item.addressType == "municipality" || item.addressType == "locality") {
                   labelToDisplay = item.address_row5 + ", " + item.postalCode + " " + item.locality;
